@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by Ed Beach (Firaxis Games) -->
+<Database>
+	<EnglishText>
+		<!-- Civ Unique Buildings -->
+		<Row Tag="LOC_BUILDING_RAILYARD_NAME">
+			<Text>Railyard</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_RAILYARD_DESCRIPTION">
+			<Text>+9[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_PRODUCTION] Production Adjacency for Quarters and Wonders. American Unique Production Building. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_RAILYARD_TOOLTIP">
+			<Text>American Unique Building.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STEEL_MILL_NAME">
+			<Text>Steel Mill</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STEEL_MILL_DESCRIPTION">
+			<Text>+9[icon:YIELD_PRODUCTION] Production. +1[icon:YIELD_GOLD] Gold Adjacency for Resources and Wonders. American Unique Production Building. Ageless.</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_STEEL_MILL_TOOLTIP">
+			<Text>American Unique Building.</Text>
+		</Row>
+		<!-- Civ Unique Quarters -->
+		<Row Tag="LOC_QUARTER_INDUSTRIAL_PARK_NAME">
+			<Text>Industrial Park</Text>
+			<Gender>Masculine:an</Gender>
+		</Row>
+		<Row Tag="LOC_QUARTER_INDUSTRIAL_PARK_DESCRIPTION">
+			<Text>American Unique Quarter. Created by constructing the Railyard and Steel Mill in the same District. Increases the number of [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources that may be assigned to this Settlement by 2.</Text>
+		</Row>
+		<Row Tag="LOC_QUARTER_INDUSTRIAL_PARK_TOOLTIP">
+			<Text>Increases the number of [icon:NOTIFICATION_DISCOVER_RESOURCE] Resources that may be assigned to this Settlement by 2.</Text>
+		</Row>
+
+	</EnglishText>
+</Database>

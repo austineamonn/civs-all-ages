@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_MODULE_CIVS_ALL_AGES_NAME">
+			<Text>Civs All Ages</Text>
+		</Row>
+		<Row Tag="LOC_MODULE_CIVS_ALL_AGES_DESCRIPTION">
+			<Text>Adds all Civilizations to every age.</Text>
+		</Row>
+	</EnglishText>
+</Database>

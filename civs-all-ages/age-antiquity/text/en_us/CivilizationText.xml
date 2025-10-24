@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civilization Traits-->
+		<Row Tag="LOC_TRAIT_AQ_AMERICA_ABILITY_NAME">
+			<Text>Frontier Expansion</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_AQ_AMERICA_DESCRIPTION">
+			<Text>Gain 100 [icon:YIELD_GOLD] Gold every time you improve a Resource.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_AQ_AMERICA_ABILITY_DESCRIPTION">
+			<Text>[BLIST][LI]Gain [B]100 [icon:YIELD_GOLD] Gold [/B]every time you improve a [B]Resource[/B].[LI][B]+30% [icon:YIELD_PRODUCTION] Production [/B]towards constructing the [B]Statue of Liberty[/B].[/LIST]</Text>
+		</Row>
+	</EnglishText>
+</Database>

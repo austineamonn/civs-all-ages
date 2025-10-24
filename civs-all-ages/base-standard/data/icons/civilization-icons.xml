@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<!--Icons-->
+		<!--Antiquity-->
+		<Row>
+			<ID>CIVILIZATION_AQ_AMERICA</ID>
+			<Path>fs://game/civ_sym_america</Path>
+		</Row>
+		<!--Backgrounds-->
+		<!--Antiquity-->
+		<Row>
+			<ID>CIVILIZATION_AQ_AMERICA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_america_1080</Path>
+			<IconSize>1080</IconSize>
+		</Row>
+		<Row>
+			<ID>CIVILIZATION_AQ_AMERICA</ID>
+			<Context>BACKGROUND</Context>
+			<Path>fs://game/lsbg_america_720</Path>
+			<IconSize>720</IconSize>
+		</Row>
+	</IconDefinitions>
+</Database>

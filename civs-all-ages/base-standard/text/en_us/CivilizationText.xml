@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!--Civilization Names-->
+		<Row Tag="LOC_CIVILIZATION_AQ_AMERICA_NAME">
+			<Text>America</Text>
+		</Row>
+		<!--Civilization Full Names-->
+		<Row Tag="LOC_CIVILIZATION_AQ_AMERICA_FULLNAME">
+			<Text>American Empire</Text>
+		</Row>
+		<!--Civilization Adjectives-->
+		<Row Tag="LOC_CIVILIZATION_AQ_AMERICA_ADJECTIVE">
+			<Text>American</Text>
+			<Gender>Masculine:an</Gender>
+		</Row>
+	</EnglishText>
+</Database>

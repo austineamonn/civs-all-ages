@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore KIND="KIND_TRAIT"/>
+	</Kinds>
+	<Types>
+		<!--Civ Antiquity Traits-->
+		<Row Type="TRAIT_AQ_AMERICA" Kind="KIND_TRAIT"/>
+	</Types>
+	<Traits>
+		<Row TraitType="TRAIT_AQ_AMERICA" InternalOnly="true"/>
+	</Traits>
+</Database>

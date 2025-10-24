@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Civilizations>
+		<Row Domain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" CivilizationName="LOC_CIVILIZATION_AQ_AMERICA_NAME" CivilizationFullName="LOC_CIVILIZATION_AQ_AMERICA_FULLNAME" CivilizationDescription="LOC_CIVILIZATION_AQ_AMERICA_DESCRIPTION" CivilizationIcon="civ_sym_america.png"/>
+	</Civilizations>
+	<CivilizationItems>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" Type="TRAIT_AQ_AMERICA_ABILITY" Kind="KIND_TRAIT" Name="LOC_TRAIT_AQ_AMERICA_ABILITY_NAME" Description="LOC_TRAIT_AQ_AMERICA_ABILITY_DESCRIPTION"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" Type="UNIT_MARINE" Kind="KIND_UNIT" Name="LOC_UNIT_MARINE_NAME" Description="LOC_UNIT_MARINE_BASE_DESCRIPTION" Icon="unitflag_marine.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" Type="UNIT_PROSPECTOR" Kind="KIND_UNIT" Name="LOC_UNIT_PROSPECTOR_NAME" Description="LOC_UNIT_PROSPECTOR_DESCRIPTION" Icon="unitflag_prospector.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" Type="QUARTER_INDUSTRIAL_PARK" Kind="KIND_QUARTER" Name="LOC_QUARTER_INDUSTRIAL_PARK_NAME" Description="LOC_QUARTER_INDUSTRIAL_PARK_DESCRIPTION" Icon="city_uniquequarter"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" Type="BUILDING_RAILYARD" Kind="KIND_BUILDING" Name="LOC_BUILDING_RAILYARD_NAME" Description="LOC_BUILDING_RAILYARD_DESCRIPTION" Icon="buildicon_railyard.png"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" Type="BUILDING_STEEL_MILL" Kind="KIND_BUILDING" Name="LOC_BUILDING_STEEL_MILL_NAME" Description="LOC_BUILDING_STEEL_MILL_DESCRIPTION" Icon="buildicon_steelmill.png"/>
+	</CivilizationItems>
+	<CivilizationTags>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" TagType="TAG_TRAIT_ECONOMIC"/>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" TagType="TAG_TRAIT_EXPANSIONIST"/>
+	</CivilizationTags>
+	<CivilizationUnlocks>
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_ROME" AgeDomain="StandardAges" AgeType="AGE_ANTIQUITY" Type="CIVILIZATION_AQ_AMERICA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_AQ_AMERICA_NAME" Description="LOC_CIVILIZATION_AQ_AMERICA_DESCRIPTION" Icon="CIVILIZATION_AQ_AMERICA"/>
+		<Row CivilizationDomain="ExplorationAgeCivilizations" CivilizationType="CIVILIZATION_NORMAN" AgeDomain="StandardAges" AgeType="AGE_ANTIQUITY" Type="CIVILIZATION_AQ_AMERICA" Kind="KIND_CIVILIZATION" Name="LOC_CIVILIZATION_AQ_AMERICA_NAME" Description="LOC_CIVILIZATION_AQ_AMERICA_DESCRIPTION" Icon="CIVILIZATION_AQ_AMERICA"/>
+	</CivilizationUnlocks>
+	<LeaderCivilizationBias>
+		<!--This is the table used for UI, the AI uses LeaderCivPriorities in civilizations.xml-->
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" LeaderDomain="StandardLeaders" LeaderType="LEADER_BENJAMIN_FRANKLIN" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_BENJAMIN_FRANKLIN_AMERICA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" LeaderDomain="StandardLeaders" LeaderType="LEADER_HARRIET_TUBMAN" Bias="4" ReasonType="LOC_UNLOCK_PLAY_AS_HARRIET_TUBMAN_AMERICA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" LeaderDomain="StandardLeaders" LeaderType="LEADER_LAFAYETTE" Bias="2" ReasonType="LOC_UNLOCK_PLAY_AS_LAFAYETTE_AMERICA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_HISTORICAL_CHOICE" />
+		<Row CivilizationDomain="AntiquityAgeCivilizations" CivilizationType="CIVILIZATION_AQ_AMERICA" LeaderDomain="StandardLeaders" LeaderType="LEADER_PACHACUTI" Bias="1" ReasonType="LOC_UNLOCK_PLAY_AS_PACHACUTI_AMERICA_TOOLTIP" ChoiceType="LOC_CREATE_GAME_STRATEGIC_CHOICE" />
+	</LeaderCivilizationBias>
+</Database>

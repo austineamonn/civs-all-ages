@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- ==================================================	-->
+		<!--	Antiquity America							-->
+		<!-- ==================================================	-->
+		<Row Tag="LOC_TREE_CIVICS_AQ_AMERICA_NAME">
+			<Text>American Civics</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_YANKEE_INGEUNITY_NAME">
+			<Text>Yankee Ingenuity</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_YANKEE_INGEUNITY_QUOTE">
+			<Text>"We have it in our power to begin the world over again."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_YANKEE_INGEUNITY_AUTHOR">
+			<Text>Thomas Paine</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_CAPTAINS_OF_INDUSTRY_NAME">
+			<Text>Captains of Industry</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_CAPTAINS_OF_INDUSTRY_QUOTE">
+			<Text>"I would rather earn one percent off a hundred people's efforts than one hundred percent of my own efforts."</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_CAPTAINS_OF_INDUSTRY_AUTHOR">
+			<Text>John D. Rockefeller</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_WARTIME_MANUFACTURING_NAME">
+			<Text>Wartime Manufacturing</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_WARTIME_MANUFACTURING_QUOTE">
+			<Text>"What's good for M and M Enterprises is good for the country!"</Text>
+		</Row>
+		<Row Tag="LOC_CIVIC_WARTIME_MANUFACTURING_AUTHOR">
+			<Text>Joseph Heller</Text>
+		</Row>
+		<!-- Antiquity America Modifier Strings -->
+		<Row Tag="LOC_MOD_YANKEE_INGENUITY_PROSPECTOR_DISCOUNT_DESCRIPTION">
+			<Text>+25%[icon:YIELD_GOLD] Gold towards purchasing Prospectors.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_CAPTAINS_OF_INDUSTRY_PRODUCTION_ON_RESOURCES_DESCRIPTION">
+			<Text>+2[icon:YIELD_PRODUCTION] Production on Resources.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_WARTIME_MANUFACTURING_COMBAT_STRENGTH_PER_ADJACENT_ENEMY_UNIT_DESCRIPTION">
+			<Text>Units receive +3 Combat Strength for having more than one adjacent enemy Unit.</Text>
+		</Row>
+		<Row Tag="LOC_MOD_WARTIME_MANUFACTURING_COMBAT_STRENGTH_PREVIEW">
+			<Text>+{1_Value} Wartime Manufacturing</Text>
+		</Row>
+		<Row Tag="LOC_MOD_WARTIME_MANUFACTURING_UNIT_PRODUCTION_RATE_DESCRIPTION">
+			<Text>+25%[icon:YIELD_PRODUCTION] Production towards training Military Units when fighting a war in which your War Support is higher than your opponent.</Text>
+		</Row>
+	</EnglishText>
+</Database>

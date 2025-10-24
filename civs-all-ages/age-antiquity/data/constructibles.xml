@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Kinds>
+		<InsertOrIgnore Kind="KIND_CONSTRUCTIBLE"/>
+	</Kinds>
+	<Types>
+		<!-- Civ Unique Buildings -->
+		<Row Type="BUILDING_RAILYARD" Kind="KIND_CONSTRUCTIBLE"/>
+		<Row Type="BUILDING_STEEL_MILL" Kind="KIND_CONSTRUCTIBLE"/>
+	</Types>
+	<Constructibles>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_RAILYARD" Name="LOC_BUILDING_RAILYARD_NAME" Description="LOC_BUILDING_RAILYARD_DESCRIPTION" Tooltip="LOC_BUILDING_RAILYARD_TOOLTIP" ConstructibleClass="BUILDING" Cost="600" Population="1" Age="AGE_ANTIQUITY" CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" Name="LOC_BUILDING_STEEL_MILL_NAME" Description="LOC_BUILDING_STEEL_MILL_DESCRIPTION" Tooltip="LOC_BUILDING_STEEL_MILL_TOOLTIP" ConstructibleClass="BUILDING" Cost="600" Population="1" Age="AGE_ANTIQUITY" CostProgressionModel="COST_PROGRESSION_PREVIOUS_BUILDINGS_CITY"/>
+	</Constructibles>
+	<Buildings>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_RAILYARD" Movable="false" TraitType="TRAIT_AQ_AMERICA"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" Movable="false" TraitType="TRAIT_AQ_AMERICA"/>
+	</Buildings>
+	<Improvements>
+	</Improvements>
+	<TypeTags>
+		<!-- Civ Unique Buildings -->
+		<Row Type="BUILDING_RAILYARD" Tag="PRODUCTION"/>
+		<Row Type="BUILDING_RAILYARD" Tag="UNIQUE"/>
+		<Row Type="BUILDING_RAILYARD" Tag="AGELESS"/>
+		<Row Type="BUILDING_STEEL_MILL" Tag="PRODUCTION"/>
+		<Row Type="BUILDING_STEEL_MILL" Tag="UNIQUE"/>
+		<Row Type="BUILDING_STEEL_MILL" Tag="AGELESS"/>
+	</TypeTags>
+	<Constructible_ValidDistricts>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_RAILYARD" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_RAILYARD" DistrictType="DISTRICT_URBAN"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" DistrictType="DISTRICT_CITY_CENTER"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" DistrictType="DISTRICT_URBAN"/>
+	</Constructible_ValidDistricts>
+	<District_FreeConstructibles>
+	</District_FreeConstructibles>
+	<Constructible_ValidBiomes>
+	</Constructible_ValidBiomes>
+	<Constructible_ValidTerrains>
+	</Constructible_ValidTerrains>
+	<Constructible_YieldChanges>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_RAILYARD" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" YieldType="YIELD_PRODUCTION" YieldChange="9"/>
+	</Constructible_YieldChanges>
+	<Constructible_Maintenances>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_RAILYARD" YieldType="YIELD_GOLD" Amount="4"/>
+		<Row ConstructibleType="BUILDING_RAILYARD" YieldType="YIELD_HAPPINESS" Amount="4"/>
+	</Constructible_Maintenances>
+	<Constructible_Adjacencies>
+		<!-- Civ Uniques -->
+		<Row ConstructibleType="BUILDING_RAILYARD" YieldChangeId="RailyardUrbanProduction"/>
+		<Row ConstructibleType="BUILDING_RAILYARD" YieldChangeId="WonderProduction"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" YieldChangeId="SteelMillResourceGold"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" YieldChangeId="WonderGold"/>
+	</Constructible_Adjacencies>
+	<Adjacency_YieldChanges>
+		<!-- Civ Uniques -->
+		<Row ID="RailyardUrbanProduction" YieldType="YIELD_PRODUCTION" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentQuarter="true"/>
+		<Row ID="SteelMillResourceGold" YieldType="YIELD_GOLD" YieldChange="1" TilesRequired="1" ProjectMaxYield="true" AdjacentResource="true"/>
+	</Adjacency_YieldChanges>
+	<Constructible_WildcardAdjacencies>
+	</Constructible_WildcardAdjacencies>
+	<Constructible_WarehouseYields>
+	</Constructible_WarehouseYields>
+	<Warehouse_YieldChanges>
+	</Warehouse_YieldChanges>
+	<Constructible_Plunders>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_RAILYARD" PlunderType="PLUNDER_SCIENCE" Amount="120"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" PlunderType="PLUNDER_SCIENCE" Amount="120"/>
+	</Constructible_Plunders>
+	<Constructible_PillageRandomEvents>
+	</Constructible_PillageRandomEvents>
+	<ConstructibleModifiers>
+	</ConstructibleModifiers>
+	<UniqueQuarters>
+		<Row UniqueQuarterType="QUARTER_INDUSTRIAL_PARK" BuildingType1="BUILDING_RAILYARD" BuildingType2="BUILDING_STEEL_MILL" Name="LOC_QUARTER_INDUSTRIAL_PARK_NAME" Description="LOC_QUARTER_INDUSTRIAL_PARK_DESCRIPTION" Tooltip="LOC_QUARTER_INDUSTRIAL_PARK_TOOLTIP" TraitType="TRAIT_AQ_AMERICA"/>
+	</UniqueQuarters>
+	<GameModifiers>
+		<!-- Unique Quarter modifiers are game-wide -->
+		<Row ModifierId="MOD_AMERICA_INDUSTRIAL_PARK_RESOURCE_CAP"/>
+	</GameModifiers>
+	<!-- These are listed here so the AI can evalutate Unique Quarters. They do not have any effects on the game for human players. -->
+	<UniqueQuarterModifiers>
+		<Row UniqueQuarterType="QUARTER_INDUSTRIAL_PARK" ModifierId="MOD_AMERICA_INDUSTRIAL_PARK_RESOURCE_CAP"/>
+	</UniqueQuarterModifiers>
+	<Modifiers>
+		<!-- Modifiers for generic buildings do NOT carry into next Age.  Place them in constructible-modifiers.xm l-->
+	</Modifiers>
+	<!-- Advisory Attributes -->
+	<Constructible_Advisories>
+		<!-- Civ Unique Buildings -->
+		<Row ConstructibleType="BUILDING_RAILYARD" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+		<Row ConstructibleType="BUILDING_STEEL_MILL" AdvisoryClassType="ADVISORY_CLASS_ECONOMIC"/>
+	</Constructible_Advisories>
+</Database>

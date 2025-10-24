@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Database>
+	<IconDefinitions>
+		<Row>
+			<ID>BUILDING_RAILYARD</ID>
+			<Path>blp:buildicon_railyard</Path>
+		</Row>
+		<Row>
+			<ID>BUILDING_STEEL_MILL</ID>
+			<Path>blp:buildicon_steelmill</Path>
+		</Row>
+	</IconDefinitions>
+</Database>

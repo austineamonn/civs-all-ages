@@ -8,4 +8,4 @@ A mod to add all Civilizations to every age.
 
 ## Latest Update:
 
-Added Loading info and text for America.
+Added Railyard and Industrial Park Buildings. Added Culture and Unit Text.

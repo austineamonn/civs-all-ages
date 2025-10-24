@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- America Unique Units -->
+		<Row Tag="LOC_UNIT_MARINE_NAME">
+			<Text>Marine</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MARINE_BASE_DESCRIPTION">
+			<Text>American Unique Infantry Unit. Has the Amphibious ability. Cheaper to train.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MARINE_DESCRIPTION">
+			<Text>Tier 2 American Unique Infantry Unit. Has the Amphibious ability. Cheaper to train.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_MARINE_2_DESCRIPTION">
+			<Text>Tier 3 American Unique Infantry Unit. Has the Amphibious ability. Cheaper to train.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PROSPECTOR_NAME">
+			<Text>Prospector</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_PROSPECTOR_DESCRIPTION">
+			<Text>American Unique Civilian Unit. Claims a Land Resource outside of your regular Settlement radius.</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CLAIM_RESOURCE_NAME">
+			<Text>Claim Resource</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_CLAIM_RESOURCE_DESCRIPTION">
+			<Text>Activate on an unowned Resource tile within 5 tiles of one of your Settlements' Palace or City Hall. A path of tiles is claimed back to the Settlement and the Resource is improved immediately.</Text>
+		</Row>
+	</EnglishText>
+</Database>

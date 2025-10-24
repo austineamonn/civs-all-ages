@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<!-- Antiquity America -->
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA1">
+			<Text>Washington, D.C.</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA2">
+			<Text>New York</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA3">
+			<Text>Philadelphia</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA4">
+			<Text>Baltimore</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA5">
+			<Text>Boston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA6">
+			<Text>Chicago</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA7">
+			<Text>New Orleans</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA8">
+			<Text>St. Louis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA9">
+			<Text>Cincinnati</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA10">
+			<Text>Cleveland</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA11">
+			<Text>Pittsburgh</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA12">
+			<Text>Buffalo</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA13">
+			<Text>San Francisco</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA14">
+			<Text>Detroit</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA15">
+			<Text>Charleston</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA16">
+			<Text>Albany</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA17">
+			<Text>Newark</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA18">
+			<Text>Providence</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA19">
+			<Text>Milwaukee</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA20">
+			<Text>Los Angeles</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA21">
+			<Text>Salem</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA22">
+			<Text>Louisville</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA23">
+			<Text>Richmond</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA24">
+			<Text>Norfolk</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA25">
+			<Text>Minneapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA26">
+			<Text>Jersey City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA27">
+			<Text>Newport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA28">
+			<Text>Newburyport</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA29">
+			<Text>Indianapolis</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA30">
+			<Text>Kansas City</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA31">
+			<Text>Rochester</Text>
+		</Row>
+		<Row Tag="LOC_CITY_NAME_AQ_AMERICA32">
+			<Text>Seattle</Text>
+		</Row>
+	</EnglishText>
+</Database>

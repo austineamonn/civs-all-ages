@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="CIVILIZATION_AQ_AMERICA" Kind="KIND_CIVILIZATION"/>
+	</Types>
+	<LegacyCivilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" Name="LOC_CIVILIZATION_AQ_AMERICA_NAME" FullName="LOC_CIVILIZATION_AQ_AMERICA_FULLNAME" Adjective="LOC_CIVILIZATION_AQ_AMERICA_ADJECTIVE" Age="AGE_ANTIQUITY"/>
+	</LegacyCivilizations>
+	<LegacyCivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" TraitType="TRAIT_AQ_AMERICA"/>
+	</LegacyCivilizationTraits>
+</Database>

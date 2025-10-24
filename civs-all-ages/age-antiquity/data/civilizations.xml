@@ -1,0 +1,103 @@
+<Database>
+	<Types>
+		<!-- Major Civs -->
+		<Row Type="TRAIT_AQ_AMERICA_ABILITY" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<!-- Full Civs -->
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" Name="LOC_CIVILIZATION_AQ_AMERICA_NAME" FullName="LOC_CIVILIZATION_AQ_AMERICA_FULLNAME" Description="LOC_CIVILIZATION_AQ_AMERICA_DESCRIPTION" Adjective="LOC_CIVILIZATION_AQ_AMERICA_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" UniqueCultureProgressionTree="TREE_CIVICS_AQ_AMERICA" AITargetCityPercentage="25" CapitalName="LOC_CITY_NAME_AQ_AMERICA1" RandomCityNameDepth="10"/>
+	</Civilizations>
+	<Traits>
+		<!--Civ Traits-->
+		<Row TraitType="TRAIT_AQ_AMERICA_ABILITY" Name="LOC_TRAIT_AQ_AMERICA_ABILITY_NAME" Description="LOC_TRAIT_AQ_AMERICA_ABILITY_DESCRIPTION" InternalOnly="true"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_AQ_AMERICA_ABILITY" ModifierId="TRAIT_MOD_FRONTIER_EXPANSION_GOLD_ON_IMPROVED_RESOURCES"/>
+		<Row TraitType="TRAIT_AQ_AMERICA_ABILITY" ModifierId="MOD_REVEAL_CIV_CULTURE_TREE_AQ_AMERICA"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" TraitType="TRAIT_ANTIQUITY_CIV"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" TraitType="TRAIT_AQ_AMERICA"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" TraitType="TRAIT_AQ_AMERICA_ABILITY"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" TraitType="TRAIT_ATTRIBUTE_ECONOMIC"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" TraitType="TRAIT_ATTRIBUTE_EXPANSIONIST"/>
+	</CivilizationTraits>
+	<RequirementSets>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AQ_AMERICA" RequirementSetType="REQUIREMENTSET_TEST_ALL"/>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row RequirementSetId="REQSET_PLAYER_IS_AQ_AMERICA" RequirementId="REQ_PLAYER_HAS_TRAIT_AQ_AMERICA"/>
+	</RequirementSetRequirements>
+	<Requirements>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_AQ_AMERICA" RequirementType="REQUIREMENT_PLAYER_HAS_CIVILIZATION_OR_LEADER_TRAIT"/>
+	</Requirements>
+	<RequirementArguments>
+		<Row RequirementId="REQ_PLAYER_HAS_TRAIT_AQ_AMERICA" Name="TraitType" Value="TRAIT_AQ_AMERICA"/>
+	</RequirementArguments>
+	<LeaderCivPriorities>
+		<!--This is the table used for AI, the UI uses LeaderCivilizationBias in config.xml-->
+		<Row Leader="LEADER_BENJAMIN_FRANKLIN" Civilization="CIVILIZATION_AQ_AMERICA" Priority="4"/>
+		<Row Leader="LEADER_HARRIET_TUBMAN" Civilization="CIVILIZATION_AQ_AMERICA" Priority="4"/>
+		<Row Leader="LEADER_LAFAYETTE" Civilization="CIVILIZATION_AQ_AMERICA" Priority="2"/>
+		<Row Leader="LEADER_PACHACUTI" Civilization="CIVILIZATION_AQ_AMERICA" Priority="1"/>
+	</LeaderCivPriorities>
+	<CityNames>
+		<!-- Antiquity America -->
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA1"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA2"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA3"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA4"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA5"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA6"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA7"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA8"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA9"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA10"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA11"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA12"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA13"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA14"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA15"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA16"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA17"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA18"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA19"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA20"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA21"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA22"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA23"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA24"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA25"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA26"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA27"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA28"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA29"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA30"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA31"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA32"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CityName="LOC_CITY_NAME_AQ_AMERICA33"/>
+	</CityNames>
+	<StartBiasBiomes>
+	</StartBiasBiomes>
+	<StartBiasResources>
+	</StartBiasResources>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" TerrainType="TERRAIN_HILL" Score="15"/>
+	</StartBiasTerrains>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" Score="5"/>
+	</StartBiasRivers>
+	<StartBiasLakes>
+	</StartBiasLakes>
+	<StartBiasAdjacentToCoasts>
+	</StartBiasAdjacentToCoasts>
+	<VisArt_CivilizationBuildingCultures>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" BuildingCulture="BUILDING_CULTURE_NAM"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" BuildingCulture="ANT_STONE"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" BuildingCulture="EXP_STONE"/>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" BuildingCulture="MOD_STONE"/>
+	</VisArt_CivilizationBuildingCultures>
+	<VisArt_CivilizationUnitCultures>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" UnitCulture="Euro"/>
+	</VisArt_CivilizationUnitCultures>
+</Database>

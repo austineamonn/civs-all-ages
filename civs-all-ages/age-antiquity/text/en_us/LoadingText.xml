@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<EnglishText>
+		<Row Tag="LOC_LOADING_CIV_INTRO_TEXT_AQ_AMERICA">
+			<Text>Built on steam, on iron, and on a vision that looks relentlessly ahead, America surges forward. The brave new world unrolls from factory assembly lines, on rail tracks that extend across the plains, and in the eyes of each immigrant who sets foot upon its shores. Come, and dream anew, under the stars and stripes.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INTRO_AQ_AMERICA">
+			<Text>From the fertile soil of America springs forth a brave new world, driven by passion, ideas, and a desire to shape the future.</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_CIV_TIPS_TEXT_AQ_AMERICA">
+			<Text>The Prospector Unique Civilian can claim Land Resource tiles outside your borders, up to 5 tiles away from a City Center. The tiles don't even have to be adjacent to your borders.</Text>
+		</Row>
+	</EnglishText>
+</Database>

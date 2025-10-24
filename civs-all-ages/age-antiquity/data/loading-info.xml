@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Database>
+	<LoadingInfo_Civilizations>
+		<Row CivilizationType="CIVILIZATION_AQ_AMERICA" CivilizationText="LOC_LOADING_CIV_INTRO_TEXT_AQ_AMERICA" Audio="VO_Loading_America" Subtitle="LOC_LOADING_INTRO_AQ_AMERICA" BackgroundImageHigh="fs://game/lsbg_america_1080.png" BackgroundImageLow="fs://game/lsbg_america_720.png" ForegroundImage="fs://game/civ_line_america.png" Tip="LOC_LOADING_CIV_TIPS_TEXT_AQ_AMERICA" />
+	</LoadingInfo_Civilizations>
+</Database>
